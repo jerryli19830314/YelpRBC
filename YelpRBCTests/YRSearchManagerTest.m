@@ -1,18 +1,18 @@
 //
-//  YelpRBCTests.m
-//  YelpRBCTests
+//  YRSearchManagerTest.m
+//  YelpRBC
 //
-//  Created by Ruilin Li on 2016-02-23.
+//  Created by Ruilin Li on 2016-02-25.
 //  Copyright © 2016 Ruilin Li. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface YelpRBCTests : XCTestCase
+@interface YRSearchManagerTest : XCTestCase
 
 @end
 
-@implementation YelpRBCTests
+@implementation YRSearchManagerTest
 
 - (void)setUp {
     [super setUp];

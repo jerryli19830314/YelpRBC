@@ -6,13 +6,13 @@
 //  Copyright © 2016 Ruilin Li. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "YelpRBCSearchViewController.h"
 
-@interface ViewController ()
+@interface YelpRBCSearchViewController ()
 
 @end
 
-@implementation ViewController
+@implementation YelpRBCSearchViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +22,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void)loadView{
+    [super loadView];
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 @end
