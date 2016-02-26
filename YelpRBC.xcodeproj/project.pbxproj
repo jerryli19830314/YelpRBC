@@ -9,13 +9,30 @@
 /* Begin PBXBuildFile section */
 		AC7D04781C7D48E300ED541C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D04771C7D48E300ED541C /* main.m */; };
 		AC7D047B1C7D48E300ED541C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D047A1C7D48E300ED541C /* AppDelegate.m */; };
-		AC7D047E1C7D48E300ED541C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D047D1C7D48E300ED541C /* ViewController.m */; };
+		AC7D047E1C7D48E300ED541C /* YelpRBCSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D047D1C7D48E300ED541C /* YelpRBCSearchViewController.m */; };
 		AC7D04811C7D48E300ED541C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7D047F1C7D48E300ED541C /* Main.storyboard */; };
 		AC7D04841C7D48E300ED541C /* YelpRBC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC7D04821C7D48E300ED541C /* YelpRBC.xcdatamodeld */; };
 		AC7D04861C7D48E300ED541C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7D04851C7D48E300ED541C /* Assets.xcassets */; };
 		AC7D04891C7D48E300ED541C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7D04871C7D48E300ED541C /* LaunchScreen.storyboard */; };
-		AC7D04941C7D48E300ED541C /* YelpRBCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D04931C7D48E300ED541C /* YelpRBCTests.m */; };
 		AC7D049F1C7D48E300ED541C /* YelpRBCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D049E1C7D48E300ED541C /* YelpRBCUITests.m */; };
+		AC7D04AD1C7D4B8700ED541C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7D04AC1C7D4B8700ED541C /* UIKit.framework */; };
+		AC7D04C21C7D57A500ED541C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7D04C11C7D57A500ED541C /* Foundation.framework */; };
+		AC7D04C41C7D57C700ED541C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7D04C31C7D57C700ED541C /* CoreData.framework */; };
+		AC7D04C61C7D57D200ED541C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7D04C51C7D57D200ED541C /* CoreGraphics.framework */; };
+		AC7D52251C7FD81B00562718 /* YRSearchManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D52241C7FD81B00562718 /* YRSearchManagerTest.m */; };
+		ACB3ECC71C7E812700E6D011 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB3ECC61C7E812700E6D011 /* CoreLocation.framework */; };
+		ACB3ED0F1C7EAD4900E6D011 /* YRSearchStoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3ED0E1C7EAD4900E6D011 /* YRSearchStoreView.m */; };
+		ACB3ED121C7EC44B00E6D011 /* YRSingleStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB3ED111C7EC44B00E6D011 /* YRSingleStoreViewController.m */; };
+		ACB3ED141C7ECFCB00E6D011 /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB3ED131C7ECFCB00E6D011 /* back-icon.png */; };
+		ACFE9BFB1C7F62EF006C1172 /* YRReviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE9BFA1C7F62EF006C1172 /* YRReviewView.m */; };
+		ACFE9BFE1C7F66A7006C1172 /* YRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFE9BFD1C7F66A7006C1172 /* YRImageView.m */; };
+		C482A6831C7E0101006D4535 /* YRSearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C482A6821C7E0101006D4535 /* YRSearchManager.m */; };
+		C482A6931C7E0E1A006D4535 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C482A68F1C7E0E1A006D4535 /* TDOAuth.m */; };
+		C482A69D1C7E3A45006D4535 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C482A69C1C7E3A44006D4535 /* CFNetwork.framework */; };
+		C482A6C21C7E4CE2006D4535 /* OMGFormURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = C482A6BD1C7E4CE2006D4535 /* OMGFormURLEncode.m */; };
+		C482A6C31C7E4CE2006D4535 /* OMGHTTPURLRQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C482A6BF1C7E4CE2006D4535 /* OMGHTTPURLRQ.m */; };
+		C482A6C41C7E4CE2006D4535 /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C482A6C11C7E4CE2006D4535 /* OMGUserAgent.m */; };
+		C482A6C81C7E4E82006D4535 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = C482A6C71C7E4E82006D4535 /* NSURLRequest+OAuth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +57,46 @@
 		AC7D04771C7D48E300ED541C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC7D04791C7D48E300ED541C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC7D047A1C7D48E300ED541C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC7D047C1C7D48E300ED541C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC7D047D1C7D48E300ED541C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC7D047C1C7D48E300ED541C /* YelpRBCSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YelpRBCSearchViewController.h; sourceTree = "<group>"; };
+		AC7D047D1C7D48E300ED541C /* YelpRBCSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpRBCSearchViewController.m; sourceTree = "<group>"; };
 		AC7D04801C7D48E300ED541C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC7D04831C7D48E300ED541C /* YelpRBC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YelpRBC.xcdatamodel; sourceTree = "<group>"; };
 		AC7D04851C7D48E300ED541C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7D04881C7D48E300ED541C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7D048A1C7D48E300ED541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7D048F1C7D48E300ED541C /* YelpRBCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpRBCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC7D04931C7D48E300ED541C /* YelpRBCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpRBCTests.m; sourceTree = "<group>"; };
 		AC7D04951C7D48E300ED541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7D049A1C7D48E300ED541C /* YelpRBCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpRBCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7D049E1C7D48E300ED541C /* YelpRBCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpRBCUITests.m; sourceTree = "<group>"; };
 		AC7D04A01C7D48E300ED541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7D04AC1C7D4B8700ED541C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC7D04C11C7D57A500ED541C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC7D04C31C7D57C700ED541C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC7D04C51C7D57D200ED541C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC7D52241C7FD81B00562718 /* YRSearchManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSearchManagerTest.m; sourceTree = "<group>"; };
+		ACB3ECC61C7E812700E6D011 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ACB3ED0D1C7EAD4900E6D011 /* YRSearchStoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSearchStoreView.h; sourceTree = "<group>"; };
+		ACB3ED0E1C7EAD4900E6D011 /* YRSearchStoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSearchStoreView.m; sourceTree = "<group>"; };
+		ACB3ED101C7EC44B00E6D011 /* YRSingleStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSingleStoreViewController.h; sourceTree = "<group>"; };
+		ACB3ED111C7EC44B00E6D011 /* YRSingleStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSingleStoreViewController.m; sourceTree = "<group>"; };
+		ACB3ED131C7ECFCB00E6D011 /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
+		ACFE9BF91C7F62EF006C1172 /* YRReviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRReviewView.h; sourceTree = "<group>"; };
+		ACFE9BFA1C7F62EF006C1172 /* YRReviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRReviewView.m; sourceTree = "<group>"; };
+		ACFE9BFC1C7F66A7006C1172 /* YRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRImageView.h; sourceTree = "<group>"; };
+		ACFE9BFD1C7F66A7006C1172 /* YRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRImageView.m; sourceTree = "<group>"; };
+		C482A6811C7E0100006D4535 /* YRSearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSearchManager.h; sourceTree = "<group>"; };
+		C482A6821C7E0101006D4535 /* YRSearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSearchManager.m; sourceTree = "<group>"; };
+		C482A68E1C7E0E1A006D4535 /* TDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
+		C482A68F1C7E0E1A006D4535 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
+		C482A69C1C7E3A44006D4535 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C482A6BC1C7E4CE2006D4535 /* OMGFormURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGFormURLEncode.h; sourceTree = "<group>"; };
+		C482A6BD1C7E4CE2006D4535 /* OMGFormURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGFormURLEncode.m; sourceTree = "<group>"; };
+		C482A6BE1C7E4CE2006D4535 /* OMGHTTPURLRQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGHTTPURLRQ.h; sourceTree = "<group>"; };
+		C482A6BF1C7E4CE2006D4535 /* OMGHTTPURLRQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGHTTPURLRQ.m; sourceTree = "<group>"; };
+		C482A6C01C7E4CE2006D4535 /* OMGUserAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUserAgent.h; sourceTree = "<group>"; };
+		C482A6C11C7E4CE2006D4535 /* OMGUserAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUserAgent.m; sourceTree = "<group>"; };
+		C482A6C61C7E4E82006D4535 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		C482A6C71C7E4E82006D4535 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +104,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB3ECC71C7E812700E6D011 /* CoreLocation.framework in Frameworks */,
+				C482A69D1C7E3A45006D4535 /* CFNetwork.framework in Frameworks */,
+				AC7D04C61C7D57D200ED541C /* CoreGraphics.framework in Frameworks */,
+				AC7D04C41C7D57C700ED541C /* CoreData.framework in Frameworks */,
+				AC7D04C21C7D57A500ED541C /* Foundation.framework in Frameworks */,
+				AC7D04AD1C7D4B8700ED541C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +136,8 @@
 				AC7D04751C7D48E300ED541C /* YelpRBC */,
 				AC7D04921C7D48E300ED541C /* YelpRBCTests */,
 				AC7D049D1C7D48E300ED541C /* YelpRBCUITests */,
+				ACB3ECC81C7E935000E6D011 /* Images */,
+				AC7D04AE1C7D4B9D00ED541C /* Frameworks */,
 				AC7D04741C7D48E300ED541C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,16 +155,20 @@
 		AC7D04751C7D48E300ED541C /* YelpRBC */ = {
 			isa = PBXGroup;
 			children = (
-				AC7D04791C7D48E300ED541C /* AppDelegate.h */,
-				AC7D047A1C7D48E300ED541C /* AppDelegate.m */,
-				AC7D047C1C7D48E300ED541C /* ViewController.h */,
-				AC7D047D1C7D48E300ED541C /* ViewController.m */,
-				AC7D047F1C7D48E300ED541C /* Main.storyboard */,
-				AC7D04851C7D48E300ED541C /* Assets.xcassets */,
-				AC7D04871C7D48E300ED541C /* LaunchScreen.storyboard */,
-				AC7D048A1C7D48E300ED541C /* Info.plist */,
-				AC7D04821C7D48E300ED541C /* YelpRBC.xcdatamodeld */,
-				AC7D04761C7D48E300ED541C /* Supporting Files */,
+				AC7D047C1C7D48E300ED541C /* YelpRBCSearchViewController.h */,
+				AC7D047D1C7D48E300ED541C /* YelpRBCSearchViewController.m */,
+				ACB3ED0D1C7EAD4900E6D011 /* YRSearchStoreView.h */,
+				ACB3ED0E1C7EAD4900E6D011 /* YRSearchStoreView.m */,
+				ACB3ED101C7EC44B00E6D011 /* YRSingleStoreViewController.h */,
+				ACB3ED111C7EC44B00E6D011 /* YRSingleStoreViewController.m */,
+				ACFE9BF91C7F62EF006C1172 /* YRReviewView.h */,
+				ACFE9BFA1C7F62EF006C1172 /* YRReviewView.m */,
+				ACFE9BFC1C7F66A7006C1172 /* YRImageView.h */,
+				ACFE9BFD1C7F66A7006C1172 /* YRImageView.m */,
+				C482A6811C7E0100006D4535 /* YRSearchManager.h */,
+				C482A6821C7E0101006D4535 /* YRSearchManager.m */,
+				AC7D04B01C7D578A00ED541C /* OAuth */,
+				AC7D04AF1C7D4BB500ED541C /* ProjectInfo */,
 			);
 			path = YelpRBC;
 			sourceTree = "<group>";
@@ -128,7 +184,7 @@
 		AC7D04921C7D48E300ED541C /* YelpRBCTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC7D04931C7D48E300ED541C /* YelpRBCTests.m */,
+				AC7D52241C7FD81B00562718 /* YRSearchManagerTest.m */,
 				AC7D04951C7D48E300ED541C /* Info.plist */,
 			);
 			path = YelpRBCTests;
@@ -141,6 +197,67 @@
 				AC7D04A01C7D48E300ED541C /* Info.plist */,
 			);
 			path = YelpRBCUITests;
+			sourceTree = "<group>";
+		};
+		AC7D04AE1C7D4B9D00ED541C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3ECC61C7E812700E6D011 /* CoreLocation.framework */,
+				C482A69C1C7E3A44006D4535 /* CFNetwork.framework */,
+				AC7D04C51C7D57D200ED541C /* CoreGraphics.framework */,
+				AC7D04C31C7D57C700ED541C /* CoreData.framework */,
+				AC7D04C11C7D57A500ED541C /* Foundation.framework */,
+				AC7D04AC1C7D4B8700ED541C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC7D04AF1C7D4BB500ED541C /* ProjectInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D04791C7D48E300ED541C /* AppDelegate.h */,
+				AC7D047A1C7D48E300ED541C /* AppDelegate.m */,
+				AC7D047F1C7D48E300ED541C /* Main.storyboard */,
+				AC7D04851C7D48E300ED541C /* Assets.xcassets */,
+				AC7D04871C7D48E300ED541C /* LaunchScreen.storyboard */,
+				AC7D048A1C7D48E300ED541C /* Info.plist */,
+				AC7D04821C7D48E300ED541C /* YelpRBC.xcdatamodeld */,
+				AC7D04761C7D48E300ED541C /* Supporting Files */,
+			);
+			name = ProjectInfo;
+			sourceTree = "<group>";
+		};
+		AC7D04B01C7D578A00ED541C /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				C482A6C51C7E4E57006D4535 /* OMGHTTPURLRQ */,
+				C482A68E1C7E0E1A006D4535 /* TDOAuth.h */,
+				C482A68F1C7E0E1A006D4535 /* TDOAuth.m */,
+				C482A6C61C7E4E82006D4535 /* NSURLRequest+OAuth.h */,
+				C482A6C71C7E4E82006D4535 /* NSURLRequest+OAuth.m */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		ACB3ECC81C7E935000E6D011 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3ED131C7ECFCB00E6D011 /* back-icon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C482A6C51C7E4E57006D4535 /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				C482A6BC1C7E4CE2006D4535 /* OMGFormURLEncode.h */,
+				C482A6BD1C7E4CE2006D4535 /* OMGFormURLEncode.m */,
+				C482A6BE1C7E4CE2006D4535 /* OMGHTTPURLRQ.h */,
+				C482A6BF1C7E4CE2006D4535 /* OMGHTTPURLRQ.m */,
+				C482A6C01C7E4CE2006D4535 /* OMGUserAgent.h */,
+				C482A6C11C7E4CE2006D4535 /* OMGUserAgent.m */,
+			);
+			name = OMGHTTPURLRQ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +327,12 @@
 				TargetAttributes = {
 					AC7D04721C7D48E200ED541C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2MY7QGJACM;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					AC7D048E1C7D48E300ED541C = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -249,6 +372,7 @@
 				AC7D04891C7D48E300ED541C /* LaunchScreen.storyboard in Resources */,
 				AC7D04861C7D48E300ED541C /* Assets.xcassets in Resources */,
 				AC7D04811C7D48E300ED541C /* Main.storyboard in Resources */,
+				ACB3ED141C7ECFCB00E6D011 /* back-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +397,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7D047E1C7D48E300ED541C /* ViewController.m in Sources */,
+				C482A6831C7E0101006D4535 /* YRSearchManager.m in Sources */,
+				C482A6C41C7E4CE2006D4535 /* OMGUserAgent.m in Sources */,
+				ACB3ED0F1C7EAD4900E6D011 /* YRSearchStoreView.m in Sources */,
+				C482A6931C7E0E1A006D4535 /* TDOAuth.m in Sources */,
+				ACFE9BFB1C7F62EF006C1172 /* YRReviewView.m in Sources */,
+				C482A6C81C7E4E82006D4535 /* NSURLRequest+OAuth.m in Sources */,
+				C482A6C31C7E4CE2006D4535 /* OMGHTTPURLRQ.m in Sources */,
+				ACFE9BFE1C7F66A7006C1172 /* YRImageView.m in Sources */,
+				AC7D047E1C7D48E300ED541C /* YelpRBCSearchViewController.m in Sources */,
 				AC7D04841C7D48E300ED541C /* YelpRBC.xcdatamodeld in Sources */,
+				C482A6C21C7E4CE2006D4535 /* OMGFormURLEncode.m in Sources */,
+				ACB3ED121C7EC44B00E6D011 /* YRSingleStoreViewController.m in Sources */,
 				AC7D047B1C7D48E300ED541C /* AppDelegate.m in Sources */,
 				AC7D04781C7D48E300ED541C /* main.m in Sources */,
 			);
@@ -284,7 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7D04941C7D48E300ED541C /* YelpRBCTests.m in Sources */,
+				AC7D52251C7FD81B00562718 /* YRSearchManagerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +551,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jerry Li (8VUWLM66T2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jerry Li (8VUWLM66T2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = YelpRBC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Jerry.YelpRBC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isispos.testclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,10 +571,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = YelpRBC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Jerry.YelpRBC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isispos.testclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +654,7 @@
 				AC7D04A51C7D48E300ED541C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC7D04A61C7D48E300ED541C /* Build configuration list for PBXNativeTarget "YelpRBCTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +663,7 @@
 				AC7D04A81C7D48E300ED541C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC7D04A91C7D48E300ED541C /* Build configuration list for PBXNativeTarget "YelpRBCUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +672,7 @@
 				AC7D04AB1C7D48E300ED541C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YRSearchManager.h"
 
-@interface YRImageView : UIImageView
+@interface YRImageView : UIImageView<YRSearchManagerDelegate>
+
+-(void)updateImageFromURL:(NSString *)url;
 
 @end

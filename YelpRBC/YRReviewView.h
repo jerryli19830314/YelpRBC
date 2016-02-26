@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YRReviewView : UIView
+@interface YRReviewView : UIView{
+    UILabel * userLabel;
+    UILabel * dateLabel;
+    UILabel * ratingLabel;
+    UILabel * reviewLabel;
+}
+
+@property(readonly)double rating;
+@property(readonly)double time_create;
+
+-(void)updateReview:(NSDictionary *)dataDic;
 
 @end

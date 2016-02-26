@@ -7,11 +7,27 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YRSearchManager.h"
 
-@interface YRSearchStoreView : UIView{
+@protocol YRSearchDelegate <NSObject>
+
+-(void)loadSingleStoreView:(NSString *)storeID;
+
+@end
+
+@interface YRSearchStoreView : UIView<YRSearchManagerDelegate>{
+    NSString * storeID;
     UIImageView * storeImageView;
     UILabel * storeName;
+    UILabel * ratingLabel;
+    UILabel * distanceLabel;
+    UILabel * reviewLabel;
 }
+
+@property(nonatomic,weak) id<YRSearchDelegate> delegate;
+@property(readonly) double rating;
+@property(readonly) double distance;
+
 
 -(void)updateData:(NSMutableDictionary *)dataDic;
 

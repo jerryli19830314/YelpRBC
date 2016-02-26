@@ -7,10 +7,34 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YRSearchStoreView.h"
+#import "YRSingleStoreViewController.h"
 
-@interface YelpRBCSearchViewController : UIViewController{
+
+
+@interface YelpRBCSearchViewController : UIViewController<UISearchBarDelegate,UIScrollViewDelegate,YRSearchDelegate,YRSingleStoreDelegate>{
+    UILabel * titleLabel;
+    
+    UIButton * sortButton;
+    UISearchBar * mainSearchBar;
+    
+    UILabel * locationLabel;
+    UISearchBar * locationSearchBar;
+    
+    UIScrollView * resultScrollView;
+    NSMutableArray * storeViewArray;
+    
+    YRSingleStoreViewController * singleStoreViewController;
+    
+    UIView * loadingView;
+    UIActivityIndicatorView * activityIndicator;
+    
+    UIAlertController* sortAlert;
+    
     
 }
+
+@property(nonatomic,strong) NSArray * tableData;
 
 
 @end
