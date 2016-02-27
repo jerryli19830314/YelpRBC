@@ -1,8 +1,8 @@
 # YelpRBC
 
 1. Requirements:
-a.	Yelp Reviews App –  (Due date: Friday, February 26, 9 AM)
-b.	Build an iOS app of a scrolling grid of 10 restaurants and latest review where you can search, sort, and tap to view more details (whatever details you feel are important with the latest 10 photos posted from users).  For this challenge, you will use Yelp's API (https://www.yelp.com/developers) that match the search "Ethiopian".  Try to make it look visually appealing, use the latest version of Xcode and deliver your project in a .zip file or GitHub or bit bucket.  If you want to send a zip file, send it to my personal email farleycaesar@me.com  as RBC does not allow source code in emails.
+a.	Yelp Reviews App
+b.	Build an iOS app of a scrolling grid of 10 restaurants and latest review where you can search, sort, and tap to view more details (whatever details you feel are important with the latest 10 photos posted from users).  For this challenge, you will use Yelp's API (https://www.yelp.com/developers) that match the search "Ethiopian".  Try to make it look visually appealing, use the latest version of Xcode and deliver your project in a .zip file or GitHub or bit bucket.  
 c.	Target iPhones running iOS version 9.2 or above. If you also want to support iPads, you can but it is not a requirement.
 d.	Ideally all orientations, but feel free to only support portrait. 
 e.	That is up to you. Use whatever approach you believe offers a good user experience.
